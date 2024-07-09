@@ -1,71 +1,31 @@
-import { useCallback, useEffect, useState } from 'react'
-import Button from '../components/Button'
-import ClickCount from '../components/ClickCount'
-import styles from '../styles/home.module.css'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
 
-function throwError() {
-  console.log(
-    // The function body() is not defined
-    document.body()
-  )
-}
-
-function Home() {
-  const [count, setCount] = useState(0)
-  const increment = useCallback(() => {
-    setCount((v) => v + 1)
-  }, [setCount])
-
-  useEffect(() => {
-    const r = setInterval(() => {
-      increment()
-    }, 1000)
-
-    return () => {
-      clearInterval(r)
-    }
-  }, [increment])
-
+const Home: NextPage = () => {
   return (
-    <main className={styles.main}>
-      <h1>Fast Refresh Demo</h1>
-      <p>
-        Fast Refresh is a Next.js feature that gives you instantaneous feedback
-        on edits made to your React components, without ever losing component
-        state.
-      </p>
-      <hr className={styles.hr} />
-      <div>
-        <p>
-          Auto incrementing value. The counter won't reset after edits or if
-          there are errors.
-        </p>
-        <p>Current value: {count}</p>
-      </div>
-      <hr className={styles.hr} />
-      <div>
-        <p>Component with state.</p>
-        <ClickCount />
-      </div>
-      <hr className={styles.hr} />
-      <div>
-        <p>
-          The button below will throw 2 errors. You'll see the error overlay to
-          let you know about the errors but it won't break the page or reset
-          your state.
-        </p>
-        <Button
-          onClick={(e) => {
-            setTimeout(() => document.parentNode(), 0)
-            throwError()
-          }}
-        >
-          Throw an Error
-        </Button>
-      </div>
-      <hr className={styles.hr} />
-    </main>
-  )
-}
+    <div className={styles.all}>
+    <div className={styles.container}>
+      <Head>
+        <title>MrJokester</title>
+        <meta name="description" content="My Website" />
+        <link rel="icon" href="public/profile.png" />
+      </Head>
 
-export default Home
+      <main className={styles.main}>
+        <h1 className={styles.title}>
+          <Image src="/title.png" alt="Profile Icon" width={40} height={40} /> BDFD Snippets</h1>
+
+        <div className={styles.grid}>
+          <a href="https://3621d689-8f08-41be-9cfd-27404c776dae-00-1y9ohzghjd8xs.spock.replit.dev/bdfd-bomb" className={styles.card}>
+            <h2>Bomb Game</h2>
+          </a>
+        </div>
+      </main>
+    </div>
+    </div>
+  );
+};
+
+export default Home;
