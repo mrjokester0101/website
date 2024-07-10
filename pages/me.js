@@ -1,4 +1,3 @@
-import type { NextPage } from "next"; // Fix: Added comma at the end
 import Head from "next/head";
 import Image from "next/image";
 import styles from "styles/Home.module.css";
