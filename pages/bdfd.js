@@ -18,9 +18,14 @@ const Home = () => {
           </h1>
 
           <div className={styles.grid}>
-            <a href="https://3621d689-8f08-41be-9cfd-27404c776dae-00-1y9ohzghjd8xs.spock.replit.dev/bdfd-bomb" className={styles.card}>
+            <a href="https://mrjokester.netlify.app/bdfd-bomb" className={styles.card}>
               <h2>Bomb Game</h2>
             </a>
+
+            <a href="https://mrjokester.netlify.app/bdfd-chat" className={styles.card}>
+             <h2>ChatBot</h2>
+            </a>
+            }
           </div>
         </main>
       </div>
