@@ -37,7 +37,7 @@ const Home = () => {
           </div>
 
           <div className={styles.grid}>
-            <a href="https://3621d689-8f08-41be-9cfd-27404c776dae-00-1y9ohzghjd8xs.spock.replit.dev/bdfd" className={styles.card}>
+            <a href="https://mrjokester.netlify.app/bdfd" className={styles.card}>
               <h2>BDFD Snippets</h2>
             </a>
           </div>
