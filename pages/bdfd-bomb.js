@@ -23,7 +23,7 @@ const Home = () => {
             <code className={styles.code}>1. Name: bsc Value: 0</code>
           </div>
           
-          <div className={stylesstyles.sni
+          <div className={styles.snippet}>
             <p className={styles.snippet}>Main Code</p>
             <code className={styles.code}>$nomention
 $onlyIf[$guildID!=;❌️ Can't use the command in dm!]
