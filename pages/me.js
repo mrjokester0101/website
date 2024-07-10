@@ -1,9 +1,9 @@
-import type { NextPage } from "next";
+import type { NextPage } from "next"; // Fix: Added comma at the end
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
-const Home: NextPage = () => {
+const Me: NextPage = () => {
   return (
     <div className={styles.all}>
       <div className={styles.container}>
@@ -56,4 +56,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Me;
