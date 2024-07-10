@@ -1,20 +1,20 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "styles/Home.module.css";
+import styles from "../styles/Home.module.css";
 
-const Home = () => {
+cconst Home = () => {
   return (
     <div className={styles.all}>
       <div className={styles.container}>
         <Head>
           <title>MrJokester</title>
           <meta name="description" content="My Website" />
-          <link rel="icon" href="public/profile.png" />
+          <link rel="icon" href="/profile.png" />
         </Head>
 
         <main className={styles.main}>
           <h1 className={styles.title}>
-            <Image src="public/title.png" alt="Profile Icon" width={40} height={40} /> BDFD Snippets
+            <Image src="/title.png" alt="Profile Icon" width={40} height={40} /> BDFD Snippets
           </h1>
 
           <div className={styles.grid}>
