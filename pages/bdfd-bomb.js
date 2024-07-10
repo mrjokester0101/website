@@ -19,13 +19,12 @@ const Home = () => {
           </h1>
 
           <div className={styles.snippet}>
-            <p className={styles.snippet}>Name</p>
-            <code className={styles.code}>Code here</code>
-            <CopyTextButton text={`Code here`} />
-          </div>
-
-          <div className={styles.snippet}>
-            <p className={styles.snippet}>Name</p>
+            <p className={styles.snippet}>Vars</p>
+            <code className={styles.code}>1. Name: bsc Value: 0</code>
+          </didiv>
+          
+          <div className={stylesstyles.sni
+            <p className={styles.snippet}>Main Code</p>
             <code className={styles.code}>Code here</code>
             <CopyTextButton text={`Code Here`} />
           </div>
