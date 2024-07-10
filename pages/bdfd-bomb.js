@@ -104,9 +104,917 @@ $addButton[no;1️⃣-8-$authorID;⬛️;secondary]`} />
           </div>
 
           <div className={styles.snippet}>
-            <p className={styles.snippet}>Name</p>
-            <code className={styles.code}>Code here</code>
-            <CopyTextButton text={`Code here`} />
+            <p className={styles.snippet}>$onInteraction</p>
+            <code className={styles.code}>$nomention
+$if[$customID==💥-1-$authorID]
+$setUserVar[bsc;0;$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[You lose!
+You clicked on a bomb!]
+$addTimestamp
+$color[$random[0;999999]]
+$removeButtons
+
+$addButton[yes;Indicator-1;⬛️;secondary;yes]
+$addButton[no;Indicator-2;⬛️;secondary;yes]
+$addButton[no;Indicator-3;1️⃣;secondary;yes]
+$addButton[no;1️⃣-2-$authorID;1️⃣;secondary;yes]
+$addButton[no;1️⃣-3-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;Indicator-4;1️⃣;secondary;yes]
+$addButton[no;Indicator-5;2️⃣;secondary;yes]
+$addButton[no;Indicator-6;2️⃣;secondary;yes]
+$addButton[no;💥-1-$authorID;💥;danger;yes]
+$addButton[no;1️⃣-5-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;💥-2-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-3-$authorID;2️⃣;secondary;yes]
+$addButton[no;💥-3-$authorID;💥;secondary;yes]
+$addButton[no;3️⃣-1-$authorID;3️⃣;secondary;yes]
+$addButton[no;2️⃣-4-$authorID;2️⃣;secondary;yes]
+
+$addButton[yes;2️⃣-6-$authorID;2️⃣;secondary;yes]
+$addButton[no;3️⃣-2-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-3-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-4-$authorID;3️⃣;secondary;yes]
+$addButton[no;💥-4-$authorID;💥;secondary;yes]
+
+$addButton[yes;1️⃣-7-$authorID;1️⃣;secondary;yes]
+$addButton[no;💥-5-$authorID;💥;secondary;yes]
+$addButton[no;💥-6-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-5-$authorID;2️⃣;secondary;yes]
+$addButton[no;1️⃣-8-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==💥-2-$authorID]
+$setUserVar[bsc;0;$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[You lose!
+You clicked on a bomb!]
+$addTimestamp
+$color[$random[0;999999]]
+$removeButtons
+
+$addButton[yes;Indicator-1;⬛️;secondary;yes]
+$addButton[no;Indicator-2;⬛️;secondary;yes]
+$addButton[no;Indicator-3;1️⃣;secondary;yes]
+$addButton[no;1️⃣-2-$authorID;1️⃣;secondary;yes]
+$addButton[no;1️⃣-3-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;Indicator-4;1️⃣;secondary;yes]
+$addButton[no;Indicator-5;2️⃣;secondary;yes]
+$addButton[no;Indicator-6;2️⃣;secondary;yes]
+$addButton[no;💥-1-$authorID;💥;secondary;yes]
+$addButton[no;1️⃣-5-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;💥-2-$authorID;💥;danger;yes]
+$addButton[no;2️⃣-3-$authorID;2️⃣;secondary;yes]
+$addButton[no;💥-3-$authorID;💥;secondary;yes]
+$addButton[no;3️⃣-1-$authorID;3️⃣;secondary;yes]
+$addButton[no;2️⃣-4-$authorID;2️⃣;secondary;yes]
+
+$addButton[yes;2️⃣-6-$authorID;2️⃣;secondary;yes]
+$addButton[no;3️⃣-2-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-3-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-4-$authorID;3️⃣;secondary;yes]
+$addButton[no;💥-4-$authorID;💥;secondary;yes]
+
+$addButton[yes;1️⃣-7-$authorID;1️⃣;secondary;yes]
+$addButton[no;💥-5-$authorID;💥;secondary;yes]
+$addButton[no;💥-6-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-5-$authorID;2️⃣;secondary;yes]
+$addButton[no;1️⃣-8-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==💥-3-$authorID]
+$setUserVar[bsc;0;$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[You lose!
+You clicked on a bomb!]
+$addTimestamp
+$color[$random[0;999999]]
+$removeButtons
+
+$addButton[yes;Indicator-1;⬛️;secondary;yes]
+$addButton[no;Indicator-2;⬛️;secondary;yes]
+$addButton[no;Indicator-3;1️⃣;secondary;yes]
+$addButton[no;1️⃣-2-$authorID;1️⃣;secondary;yes]
+$addButton[no;1️⃣-3-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;Indicator-4;1️⃣;secondary;yes]
+$addButton[no;Indicator-5;2️⃣;secondary;yes]
+$addButton[no;Indicator-6;2️⃣;secondary;yes]
+$addButton[no;💥-1-$authorID;💥;secondary;yes]
+$addButton[no;1️⃣-5-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;💥-2-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-3-$authorID;2️⃣;secondary;yes]
+$addButton[no;💥-3-$authorID;💥;danger;yes]
+$addButton[no;3️⃣-1-$authorID;3️⃣;secondary;yes]
+$addButton[no;2️⃣-4-$authorID;2️⃣;secondary;yes]
+
+$addButton[yes;2️⃣-6-$authorID;2️⃣;secondary;yes]
+$addButton[no;3️⃣-2-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-3-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-4-$authorID;3️⃣;secondary;yes]
+$addButton[no;💥-4-$authorID;💥;secondary;yes]
+
+$addButton[yes;1️⃣-7-$authorID;1️⃣;secondary;yes]
+$addButton[no;💥-5-$authorID;💥;secondary;yes]
+$addButton[no;💥-6-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-5-$authorID;2️⃣;secondary;yes]
+$addButton[no;1️⃣-8-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==💥-4-$authorID]
+$setUserVar[bsc;0;$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[You lose!
+You clicked on a bomb!]
+$addTimestamp
+$color[$random[0;999999]]
+$removeButtons
+
+$addButton[yes;Indicator-1;⬛️;secondary;yes]
+$addButton[no;Indicator-2;⬛️;secondary;yes]
+$addButton[no;Indicator-3;1️⃣;secondary;yes]
+$addButton[no;1️⃣-2-$authorID;1️⃣;secondary;yes]
+$addButton[no;1️⃣-3-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;Indicator-4;1️⃣;secondary;yes]
+$addButton[no;Indicator-5;2️⃣;secondary;yes]
+$addButton[no;Indicator-6;2️⃣;secondary;yes]
+$addButton[no;💥-1-$authorID;💥;secondary;yes]
+$addButton[no;1️⃣-5-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;💥-2-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-3-$authorID;2️⃣;secondary;yes]
+$addButton[no;💥-3-$authorID;💥;secondary;yes]
+$addButton[no;3️⃣-1-$authorID;3️⃣;secondary;yes]
+$addButton[no;2️⃣-4-$authorID;2️⃣;secondary;yes]
+
+$addButton[yes;2️⃣-6-$authorID;2️⃣;secondary;yes]
+$addButton[no;3️⃣-2-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-3-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-4-$authorID;3️⃣;secondary;yes]
+$addButton[no;💥-4-$authorID;💥;danger;yes]
+
+$addButton[yes;1️⃣-7-$authorID;1️⃣;secondary;yes]
+$addButton[no;💥-5-$authorID;💥;secondary;yes]
+$addButton[no;💥-6-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-5-$authorID;2️⃣;secondary;yes]
+$addButton[no;1️⃣-8-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==💥-5-$authorID]
+$setUserVar[bsc;0;$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[You lose!
+You clicked on a bomb!]
+$addTimestamp
+$color[$random[0;999999]]
+$removeButtons
+
+$addButton[yes;Indicator-1;⬛️;secondary;yes]
+$addButton[no;Indicator-2;⬛️;secondary;yes]
+$addButton[no;Indicator-3;1️⃣;secondary;yes]
+$addButton[no;1️⃣-2-$authorID;1️⃣;secondary;yes]
+$addButton[no;1️⃣-3-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;Indicator-4;1️⃣;secondary;yes]
+$addButton[no;Indicator-5;2️⃣;secondary;yes]
+$addButton[no;Indicator-6;2️⃣;secondary;yes]
+$addButton[no;💥-1-$authorID;💥;secondary;yes]
+$addButton[no;1️⃣-5-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;💥-2-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-3-$authorID;2️⃣;secondary;yes]
+$addButton[no;💥-3-$authorID;💥;secondary;yes]
+$addButton[no;3️⃣-1-$authorID;3️⃣;secondary;yes]
+$addButton[no;2️⃣-4-$authorID;2️⃣;secondary;yes]
+
+$addButton[yes;2️⃣-6-$authorID;2️⃣;secondary;yes]
+$addButton[no;3️⃣-2-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-3-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-4-$authorID;3️⃣;secondary;yes]
+$addButton[no;💥-4-$authorID;💥;secondary;yes]
+
+$addButton[yes;1️⃣-7-$authorID;1️⃣;secondary;yes]
+$addButton[no;💥-5-$authorID;💥;danger;yes]
+$addButton[no;💥-6-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-5-$authorID;2️⃣;secondary;yes]
+$addButton[no;1️⃣-8-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==💥-6-$authorID]
+$setUserVar[bsc;0;$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[You lose!
+You clicked on a bomb!]
+$addTimestamp
+$color[$random[0;999999]]
+$removeButtons
+
+$addButton[yes;Indicator-1;⬛️;secondary;yes]
+$addButton[no;Indicator-2;⬛️;secondary;yes]
+$addButton[no;Indicator-3;1️⃣;secondary;yes]
+$addButton[no;1️⃣-2-$authorID;1️⃣;secondary;yes]
+$addButton[no;1️⃣-3-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;Indicator-4;1️⃣;secondary;yes]
+$addButton[no;Indicator-5;2️⃣;secondary;yes]
+$addButton[no;Indicator-6;2️⃣;secondary;yes]
+$addButton[no;💥-1-$authorID;💥;secondary;yes]
+$addButton[no;1️⃣-5-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;💥-2-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-3-$authorID;2️⃣;secondary;yes]
+$addButton[no;💥-3-$authorID;💥;secondary;yes]
+$addButton[no;3️⃣-1-$authorID;3️⃣;secondary;yes]
+$addButton[no;2️⃣-4-$authorID;2️⃣;secondary;yes]
+
+$addButton[yes;2️⃣-6-$authorID;2️⃣;secondary;yes]
+$addButton[no;3️⃣-2-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-3-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-4-$authorID;3️⃣;secondary;yes]
+$addButton[no;💥-4-$authorID;💥;secondary;yes]
+
+$addButton[yes;1️⃣-7-$authorID;1️⃣;secondary;yes]
+$addButton[no;💥-5-$authorID;💥;secondary;yes]
+$addButton[no;💥-6-$authorID;💥;danger;yes]
+$addButton[no;2️⃣-5-$authorID;2️⃣;secondary;yes]
+$addButton[no;1️⃣-8-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==1️⃣-2-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[1️⃣-2-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==1️⃣-3-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[1️⃣-3-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==1️⃣-4-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[1️⃣-4-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==1️⃣-5-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[1️⃣-5-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==2️⃣-6-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[2️⃣-6-$authorID;2️⃣;secondary;yes]
+$endif
+
+$if[$customID==1️⃣-7-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[1️⃣-7-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==1️⃣-8-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[1️⃣-8-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==2️⃣-3-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[2️⃣-3-$authorID;2️⃣;secondary;yes]
+$endif
+
+$if[$customID==2️⃣-4-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[2️⃣-4-$authorID;2️⃣;secondary;yes]
+$endif
+
+$if[$customID==2️⃣-5-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[2️⃣-5-$authorID;2️⃣;secondary;yes]
+$endif
+
+$if[$customID==3️⃣-1-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[3️⃣-1-$authorID;3️⃣;secondary;yes]
+$endif
+
+$if[$customID==3️⃣-2-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[3️⃣-2-$authorID;3️⃣;secondary;yes]
+$endif
+
+$if[$customID==3️⃣-3-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[3️⃣-3-$authorID;3️⃣;secondary;yes]
+$endif
+
+$if[$customID==3️⃣-4-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[3️⃣-4-$authorID;3️⃣;secondary;yes]
+$endif
+
+$if[$getUserVar[bsc;$authorID]==13]
+$setUserVar[bsc;0;$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[You win!
+You managed to avoid all the bombs!]
+$addTimestamp
+$color[$random[0;999999]]
+$removeButtons
+
+$addButton[yes;Indicator-1;⬛️;secondary;yes]
+$addButton[no;Indicator-2;⬛️;secondary;yes]
+$addButton[no;Indicator-3;1️⃣;secondary;yes]
+$addButton[no;1️⃣-2-$authorID;1️⃣;secondary;yes]
+$addButton[no;1️⃣-3-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;Indicator-4;1️⃣;secondary;yes]
+$addButton[no;Indicator-5;2️⃣;secondary;yes]
+$addButton[no;Indicator-6;2️⃣;secondary;yes]
+$addButton[no;💥-1-$authorID;💥;secondary;yes]
+$addButton[no;1️⃣-5-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;💥-2-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-3-$authorID;2️⃣;secondary;yes]
+$addButton[no;💥-3-$authorID;💥;secondary;yes]
+$addButton[no;3️⃣-1-$authorID;3️⃣;secondary;yes]
+$addButton[no;2️⃣-4-$authorID;2️⃣;secondary;yes]
+
+$addButton[yes;2️⃣-6-$authorID;2️⃣;secondary;yes]
+$addButton[no;3️⃣-2-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-3-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-4-$authorID;3️⃣;secondary;yes]
+$addButton[no;💥-4-$authorID;💥;secondary;yes]
+
+$addButton[yes;1️⃣-7-$authorID;1️⃣;secondary;yes]
+$addButton[no;💥-5-$authorID;💥;secondary;yes]
+$addButton[no;💥-6-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-5-$authorID;2️⃣;secondary;yes]
+$addButton[no;1️⃣-8-$authorID;1️⃣;secondary;yes]
+$endif</code>
+            <CopyTextButton text={`$nomention
+$if[$customID==💥-1-$authorID]
+$setUserVar[bsc;0;$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[You lose!
+You clicked on a bomb!]
+$addTimestamp
+$color[$random[0;999999]]
+$removeButtons
+
+$addButton[yes;Indicator-1;⬛️;secondary;yes]
+$addButton[no;Indicator-2;⬛️;secondary;yes]
+$addButton[no;Indicator-3;1️⃣;secondary;yes]
+$addButton[no;1️⃣-2-$authorID;1️⃣;secondary;yes]
+$addButton[no;1️⃣-3-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;Indicator-4;1️⃣;secondary;yes]
+$addButton[no;Indicator-5;2️⃣;secondary;yes]
+$addButton[no;Indicator-6;2️⃣;secondary;yes]
+$addButton[no;💥-1-$authorID;💥;danger;yes]
+$addButton[no;1️⃣-5-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;💥-2-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-3-$authorID;2️⃣;secondary;yes]
+$addButton[no;💥-3-$authorID;💥;secondary;yes]
+$addButton[no;3️⃣-1-$authorID;3️⃣;secondary;yes]
+$addButton[no;2️⃣-4-$authorID;2️⃣;secondary;yes]
+
+$addButton[yes;2️⃣-6-$authorID;2️⃣;secondary;yes]
+$addButton[no;3️⃣-2-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-3-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-4-$authorID;3️⃣;secondary;yes]
+$addButton[no;💥-4-$authorID;💥;secondary;yes]
+
+$addButton[yes;1️⃣-7-$authorID;1️⃣;secondary;yes]
+$addButton[no;💥-5-$authorID;💥;secondary;yes]
+$addButton[no;💥-6-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-5-$authorID;2️⃣;secondary;yes]
+$addButton[no;1️⃣-8-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==💥-2-$authorID]
+$setUserVar[bsc;0;$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[You lose!
+You clicked on a bomb!]
+$addTimestamp
+$color[$random[0;999999]]
+$removeButtons
+
+$addButton[yes;Indicator-1;⬛️;secondary;yes]
+$addButton[no;Indicator-2;⬛️;secondary;yes]
+$addButton[no;Indicator-3;1️⃣;secondary;yes]
+$addButton[no;1️⃣-2-$authorID;1️⃣;secondary;yes]
+$addButton[no;1️⃣-3-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;Indicator-4;1️⃣;secondary;yes]
+$addButton[no;Indicator-5;2️⃣;secondary;yes]
+$addButton[no;Indicator-6;2️⃣;secondary;yes]
+$addButton[no;💥-1-$authorID;💥;secondary;yes]
+$addButton[no;1️⃣-5-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;💥-2-$authorID;💥;danger;yes]
+$addButton[no;2️⃣-3-$authorID;2️⃣;secondary;yes]
+$addButton[no;💥-3-$authorID;💥;secondary;yes]
+$addButton[no;3️⃣-1-$authorID;3️⃣;secondary;yes]
+$addButton[no;2️⃣-4-$authorID;2️⃣;secondary;yes]
+
+$addButton[yes;2️⃣-6-$authorID;2️⃣;secondary;yes]
+$addButton[no;3️⃣-2-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-3-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-4-$authorID;3️⃣;secondary;yes]
+$addButton[no;💥-4-$authorID;💥;secondary;yes]
+
+$addButton[yes;1️⃣-7-$authorID;1️⃣;secondary;yes]
+$addButton[no;💥-5-$authorID;💥;secondary;yes]
+$addButton[no;💥-6-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-5-$authorID;2️⃣;secondary;yes]
+$addButton[no;1️⃣-8-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==💥-3-$authorID]
+$setUserVar[bsc;0;$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[You lose!
+You clicked on a bomb!]
+$addTimestamp
+$color[$random[0;999999]]
+$removeButtons
+
+$addButton[yes;Indicator-1;⬛️;secondary;yes]
+$addButton[no;Indicator-2;⬛️;secondary;yes]
+$addButton[no;Indicator-3;1️⃣;secondary;yes]
+$addButton[no;1️⃣-2-$authorID;1️⃣;secondary;yes]
+$addButton[no;1️⃣-3-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;Indicator-4;1️⃣;secondary;yes]
+$addButton[no;Indicator-5;2️⃣;secondary;yes]
+$addButton[no;Indicator-6;2️⃣;secondary;yes]
+$addButton[no;💥-1-$authorID;💥;secondary;yes]
+$addButton[no;1️⃣-5-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;💥-2-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-3-$authorID;2️⃣;secondary;yes]
+$addButton[no;💥-3-$authorID;💥;danger;yes]
+$addButton[no;3️⃣-1-$authorID;3️⃣;secondary;yes]
+$addButton[no;2️⃣-4-$authorID;2️⃣;secondary;yes]
+
+$addButton[yes;2️⃣-6-$authorID;2️⃣;secondary;yes]
+$addButton[no;3️⃣-2-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-3-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-4-$authorID;3️⃣;secondary;yes]
+$addButton[no;💥-4-$authorID;💥;secondary;yes]
+
+$addButton[yes;1️⃣-7-$authorID;1️⃣;secondary;yes]
+$addButton[no;💥-5-$authorID;💥;secondary;yes]
+$addButton[no;💥-6-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-5-$authorID;2️⃣;secondary;yes]
+$addButton[no;1️⃣-8-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==💥-4-$authorID]
+$setUserVar[bsc;0;$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[You lose!
+You clicked on a bomb!]
+$addTimestamp
+$color[$random[0;999999]]
+$removeButtons
+
+$addButton[yes;Indicator-1;⬛️;secondary;yes]
+$addButton[no;Indicator-2;⬛️;secondary;yes]
+$addButton[no;Indicator-3;1️⃣;secondary;yes]
+$addButton[no;1️⃣-2-$authorID;1️⃣;secondary;yes]
+$addButton[no;1️⃣-3-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;Indicator-4;1️⃣;secondary;yes]
+$addButton[no;Indicator-5;2️⃣;secondary;yes]
+$addButton[no;Indicator-6;2️⃣;secondary;yes]
+$addButton[no;💥-1-$authorID;💥;secondary;yes]
+$addButton[no;1️⃣-5-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;💥-2-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-3-$authorID;2️⃣;secondary;yes]
+$addButton[no;💥-3-$authorID;💥;secondary;yes]
+$addButton[no;3️⃣-1-$authorID;3️⃣;secondary;yes]
+$addButton[no;2️⃣-4-$authorID;2️⃣;secondary;yes]
+
+$addButton[yes;2️⃣-6-$authorID;2️⃣;secondary;yes]
+$addButton[no;3️⃣-2-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-3-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-4-$authorID;3️⃣;secondary;yes]
+$addButton[no;💥-4-$authorID;💥;danger;yes]
+
+$addButton[yes;1️⃣-7-$authorID;1️⃣;secondary;yes]
+$addButton[no;💥-5-$authorID;💥;secondary;yes]
+$addButton[no;💥-6-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-5-$authorID;2️⃣;secondary;yes]
+$addButton[no;1️⃣-8-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==💥-5-$authorID]
+$setUserVar[bsc;0;$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[You lose!
+You clicked on a bomb!]
+$addTimestamp
+$color[$random[0;999999]]
+$removeButtons
+
+$addButton[yes;Indicator-1;⬛️;secondary;yes]
+$addButton[no;Indicator-2;⬛️;secondary;yes]
+$addButton[no;Indicator-3;1️⃣;secondary;yes]
+$addButton[no;1️⃣-2-$authorID;1️⃣;secondary;yes]
+$addButton[no;1️⃣-3-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;Indicator-4;1️⃣;secondary;yes]
+$addButton[no;Indicator-5;2️⃣;secondary;yes]
+$addButton[no;Indicator-6;2️⃣;secondary;yes]
+$addButton[no;💥-1-$authorID;💥;secondary;yes]
+$addButton[no;1️⃣-5-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;💥-2-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-3-$authorID;2️⃣;secondary;yes]
+$addButton[no;💥-3-$authorID;💥;secondary;yes]
+$addButton[no;3️⃣-1-$authorID;3️⃣;secondary;yes]
+$addButton[no;2️⃣-4-$authorID;2️⃣;secondary;yes]
+
+$addButton[yes;2️⃣-6-$authorID;2️⃣;secondary;yes]
+$addButton[no;3️⃣-2-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-3-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-4-$authorID;3️⃣;secondary;yes]
+$addButton[no;💥-4-$authorID;💥;secondary;yes]
+
+$addButton[yes;1️⃣-7-$authorID;1️⃣;secondary;yes]
+$addButton[no;💥-5-$authorID;💥;danger;yes]
+$addButton[no;💥-6-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-5-$authorID;2️⃣;secondary;yes]
+$addButton[no;1️⃣-8-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==💥-6-$authorID]
+$setUserVar[bsc;0;$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[You lose!
+You clicked on a bomb!]
+$addTimestamp
+$color[$random[0;999999]]
+$removeButtons
+
+$addButton[yes;Indicator-1;⬛️;secondary;yes]
+$addButton[no;Indicator-2;⬛️;secondary;yes]
+$addButton[no;Indicator-3;1️⃣;secondary;yes]
+$addButton[no;1️⃣-2-$authorID;1️⃣;secondary;yes]
+$addButton[no;1️⃣-3-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;Indicator-4;1️⃣;secondary;yes]
+$addButton[no;Indicator-5;2️⃣;secondary;yes]
+$addButton[no;Indicator-6;2️⃣;secondary;yes]
+$addButton[no;💥-1-$authorID;💥;secondary;yes]
+$addButton[no;1️⃣-5-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;💥-2-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-3-$authorID;2️⃣;secondary;yes]
+$addButton[no;💥-3-$authorID;💥;secondary;yes]
+$addButton[no;3️⃣-1-$authorID;3️⃣;secondary;yes]
+$addButton[no;2️⃣-4-$authorID;2️⃣;secondary;yes]
+
+$addButton[yes;2️⃣-6-$authorID;2️⃣;secondary;yes]
+$addButton[no;3️⃣-2-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-3-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-4-$authorID;3️⃣;secondary;yes]
+$addButton[no;💥-4-$authorID;💥;secondary;yes]
+
+$addButton[yes;1️⃣-7-$authorID;1️⃣;secondary;yes]
+$addButton[no;💥-5-$authorID;💥;secondary;yes]
+$addButton[no;💥-6-$authorID;💥;danger;yes]
+$addButton[no;2️⃣-5-$authorID;2️⃣;secondary;yes]
+$addButton[no;1️⃣-8-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==1️⃣-2-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[1️⃣-2-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==1️⃣-3-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[1️⃣-3-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==1️⃣-4-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[1️⃣-4-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==1️⃣-5-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[1️⃣-5-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==2️⃣-6-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[2️⃣-6-$authorID;2️⃣;secondary;yes]
+$endif
+
+$if[$customID==1️⃣-7-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[1️⃣-7-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==1️⃣-8-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[1️⃣-8-$authorID;1️⃣;secondary;yes]
+$endif
+
+$if[$customID==2️⃣-3-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[2️⃣-3-$authorID;2️⃣;secondary;yes]
+$endif
+
+$if[$customID==2️⃣-4-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[2️⃣-4-$authorID;2️⃣;secondary;yes]
+$endif
+
+$if[$customID==2️⃣-5-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[2️⃣-5-$authorID;2️⃣;secondary;yes]
+$endif
+
+$if[$customID==3️⃣-1-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[3️⃣-1-$authorID;3️⃣;secondary;yes]
+$endif
+
+$if[$customID==3️⃣-2-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[3️⃣-2-$authorID;3️⃣;secondary;yes]
+$endif
+
+$if[$customID==3️⃣-3-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[3️⃣-3-$authorID;3️⃣;secondary;yes]
+$endif
+
+$if[$customID==3️⃣-4-$authorID]
+$setUserVar[bsc;$sum[$getUserVar[bsc;$authorID];1];$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[Click on one of the buttons to start playing.
+There are 6 bombs.]
+$addTimestamp
+$color[$random[0;999999]]
+
+$editButton[3️⃣-4-$authorID;3️⃣;secondary;yes]
+$endif
+
+$if[$getUserVar[bsc;$authorID]==13]
+$setUserVar[bsc;0;$authorID]
+$title[💣 Bomb Game 💥]
+$thumbnail[$authorAvatar]
+$description[You win!
+You managed to avoid all the bombs!]
+$addTimestamp
+$color[$random[0;999999]]
+$removeButtons
+
+$addButton[yes;Indicator-1;⬛️;secondary;yes]
+$addButton[no;Indicator-2;⬛️;secondary;yes]
+$addButton[no;Indicator-3;1️⃣;secondary;yes]
+$addButton[no;1️⃣-2-$authorID;1️⃣;secondary;yes]
+$addButton[no;1️⃣-3-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;Indicator-4;1️⃣;secondary;yes]
+$addButton[no;Indicator-5;2️⃣;secondary;yes]
+$addButton[no;Indicator-6;2️⃣;secondary;yes]
+$addButton[no;💥-1-$authorID;💥;secondary;yes]
+$addButton[no;1️⃣-5-$authorID;1️⃣;secondary;yes]
+
+$addButton[yes;💥-2-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-3-$authorID;2️⃣;secondary;yes]
+$addButton[no;💥-3-$authorID;💥;secondary;yes]
+$addButton[no;3️⃣-1-$authorID;3️⃣;secondary;yes]
+$addButton[no;2️⃣-4-$authorID;2️⃣;secondary;yes]
+
+$addButton[yes;2️⃣-6-$authorID;2️⃣;secondary;yes]
+$addButton[no;3️⃣-2-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-3-$authorID;3️⃣;secondary;yes]
+$addButton[no;3️⃣-4-$authorID;3️⃣;secondary;yes]
+$addButton[no;💥-4-$authorID;💥;secondary;yes]
+
+$addButton[yes;1️⃣-7-$authorID;1️⃣;secondary;yes]
+$addButton[no;💥-5-$authorID;💥;secondary;yes]
+$addButton[no;💥-6-$authorID;💥;secondary;yes]
+$addButton[no;2️⃣-5-$authorID;2️⃣;secondary;yes]
+$addButton[no;1️⃣-8-$authorID;1️⃣;secondary;yes]
+$endif`} />
           </div>
 
           <div className={styles.grid}>
