@@ -1,4 +1,6 @@
-import { useState, CopyToClipboard } from 'react';
+import { useState } from 'react';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
+
 
 const CopyTextButton = ({ text }) => {
   const [isCopied, setIsCopied] = useState(false);
