@@ -1,5 +1,4 @@
 import { useState, CopyToClipboard } from 'react';
-import { CopyTextStyle } from 'components/CopyTextButton.module.css';
 
 const CopyTextButton = ({ text }) => {
   const [isCopied, setIsCopied] = useState(false);
