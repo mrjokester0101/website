@@ -24,16 +24,16 @@ const Home: NextPage = () => {
             <p>Medium Next.js</p>
             <p>Learning Python</p>
             <p>A lot Bot Designer For Discord</p>
-            
           </div>
-                    <div className={styles.description}>
+
+          <div className={styles.description}>
             <h1>Favorite Foods</h1>
             <p>Kremverski</p>
             <p>Cupcakes</p>
             <p>Pancakes</p>
           </div>
 
-                    <div className={styles.description}>
+          <div className={styles.description}>
             <h1>Favorite Pets</h1>
             <p>Cat</p>
             <p>Dogs</p>
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
 
           <div className={styles.description}>
             <h1>Little bit more info about me</h1>
-            <p>I'm MrJokester, I'm 13 years old and love hobby coding, love to help people aswell, likes reading books.</p>
+            <p>I'm MrJokester, I'm 13 years old and love hobby coding, love to help people as well, and like reading books.</p>
           </div>
           
         </main>
