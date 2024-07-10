@@ -1,7 +1,7 @@
 import type { NextPage } from "next"; // Fix: Added comma at the end
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "styles/Home.module.css";
 
 const Me: NextPage = () => {
   return (
@@ -10,12 +10,12 @@ const Me: NextPage = () => {
         <Head>
           <title>MrJokester</title>
           <meta name="description" content="My Website" />
-          <link rel="icon" href="/profile.png" />
+          <link rel="icon" href="public/profile.png" />
         </Head>
 
         <main className={styles.main}>
           <h1 className={styles.title}>
-            <Image src="/title.png" alt="Profile Icon" width={40} height={40} /> About Me
+            <Image src="public/title.png" alt="Profile Icon" width={40} height={40} /> About Me
           </h1>
 
           <div className={styles.description}>
