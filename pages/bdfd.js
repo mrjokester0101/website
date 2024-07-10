@@ -25,7 +25,6 @@ const Home = () => {
             <a href="https://mrjokester.netlify.app/bdfd-chat" className={styles.card}>
              <h2>ChatBot</h2>
             </a>
-            }
           </div>
         </main>
       </div>
