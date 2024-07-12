@@ -41,8 +41,7 @@ $description[$httpResult[result;0;response]]
 $addTimestamp
 $color[$var[clr]]
 $endif</code>
-     <CopyTextButton text={`
-$nomention
+     <CopyTextButton text={`$nomention
 $onlyIf[$guildID!=;❌️ Can't use the command in dm!]
 $var[msg;$message]
 $var[clr;$random[0;999999]]
