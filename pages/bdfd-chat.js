@@ -20,7 +20,7 @@ const Home = () => {
 
           <div className={styles.snippet}>
             <p className={styles.snippet}>Main Code</p>
-            <code className={styles.code}>$nomention
+            <code className={styles.code}>{`$nomention
 $onlyIf[$guildID!=;❌️ Can't use the command in dm!]
 $var[msg;$message]
 $var[clr;$random[0;999999]]
@@ -40,7 +40,7 @@ $thumbnail[$userAvatar[$botID]]
 $description[$httpResult[result;0;response]]
 $addTimestamp
 $color[$var[clr]]
-$endif</code>
+$endif`}</code>
      <CopyTextButton text={`$nomention
 $onlyIf[$guildID!=;❌️ Can't use the command in dm!]
 $var[msg;$message]
