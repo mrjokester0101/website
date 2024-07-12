@@ -22,7 +22,7 @@ const Home = () => {
 
           <div className={styles.snippet}>
             <p className={styles.snippet}>Name</p>
-            <code className={styles.code}>Code Here</code>
+            <code className={styles.code}>{`Code Here`}</code>
      <CopyTextButton text={`Code Here`}/>
           </div>
 
