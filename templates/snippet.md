@@ -1,11 +1,10 @@
 # Snippet
-import type { NextPage } from "next";
-import Head from "next/head";
+```import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import CopyTextButton from "../components/CopyTextButton";
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <div className={styles.all}>
       <div className={styles.container}>
@@ -37,4 +36,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Home;```
