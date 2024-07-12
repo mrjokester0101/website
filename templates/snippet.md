@@ -21,7 +21,7 @@ const Home = () => {
           </h1>
 
           <div className={styles.snippet}>
-            <p className={styles.snippet}>Main Code</p>
+            <p className={styles.snippet}>Name</p>
             <code className={styles.code}>Code Here</code>
      <CopyTextButton text={`Code Here`}/>
           </div>
