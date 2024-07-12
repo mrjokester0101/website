@@ -20,8 +20,76 @@ const Home = () => {
 
           <div className={styles.snippet}>
             <p className={styles.snippet}>Main Code</p>
-            <code className={styles.code}>Code Here</code>
-     <CopyTextButton text={`Code Here`}/>
+            <code className={styles.code}>$nomention
+$onlyIf[$guildID!=;❌️ Can't use the command in dm!]
+
+$title[👤 User Info👤]
+$thumbnail[$userAvatar[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif]]
+$description[
+👤 User
+$if[$mentioned[1]==] <@$authorID> $else <@$mentioned[1]> $endif
+
+🆔️ ID
+$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif
+
+🪪 Nickname
+ $nickname[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif]
+
+🔖 Display Name
+$if[$displayName[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif]==] No display name. $else $displayName[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif] $endif
+
+🥇 Badges
+$if[$userBadges[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif;, ]==] No badges. $else $userBadges[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif;, ] $endif
+
+🛠 Admin
+ $isAdmin[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif]
+
+🤖 Bot
+ $isBot[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif]
+
+📅 Creation Date
+ $creationDate[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif]
+
+🗓 Join Date
+ $userJoined[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif]
+]
+$addTimestamp
+$color[$random[0;999999]]</code>
+     <CopyTextButton text={`$nomention
+$onlyIf[$guildID!=;❌️ Can't use the command in dm!]
+
+$title[👤 User Info👤]
+$thumbnail[$userAvatar[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif]]
+$description[
+👤 User
+$if[$mentioned[1]==] <@$authorID> $else <@$mentioned[1]> $endif
+
+🆔️ ID
+$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif
+
+🪪 Nickname
+ $nickname[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif]
+
+🔖 Display Name
+$if[$displayName[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif]==] No display name. $else $displayName[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif] $endif
+
+🥇 Badges
+$if[$userBadges[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif;, ]==] No badges. $else $userBadges[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif;, ] $endif
+
+🛠 Admin
+ $isAdmin[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif]
+
+🤖 Bot
+ $isBot[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif]
+
+📅 Creation Date
+ $creationDate[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif]
+
+🗓 Join Date
+ $userJoined[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif]
+]
+$addTimestamp
+$color[$random[0;999999]]`}/>
           </div>
 
           <div className={styles.grid}>
