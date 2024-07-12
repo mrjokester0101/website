@@ -20,7 +20,8 @@ const Home = () => {
 
           <div className={styles.snippet}>
             <p className={styles.snippet}>Main Code</p>
-            <code className={styles.code}>$nomention
+            <code className={styles.code}>
+$nomention
 $onlyIf[$guildID!=;❌️ Can't use the command in dm!]
 
 $title[👤 User Info👤]
@@ -54,7 +55,8 @@ $if[$userBadges[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif;, ]==]
  $userJoined[$if[$mentioned[1]==] $authorID $else $mentioned[1] $endif]
 ]
 $addTimestamp
-$color[$random[0;999999]]</code>
+$color[$random[0;999999]]
+</code>
      <CopyTextButton text={`$nomention
 $onlyIf[$guildID!=;❌️ Can't use the command in dm!]
 
