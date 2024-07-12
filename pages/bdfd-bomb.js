@@ -20,12 +20,12 @@ const Home = () => {
 
           <div className={styles.snippet}>
             <p className={styles.snippet}>Vars</p>
-            <code className={styles.code}>1. Name: bsc Value: 0</code>
+            <code className={styles.code}>{`1. Name: bsc Value: 0`}</code>
           </div>
           
           <div className={styles.snippet}>
             <p className={styles.snippet}>Main Code</p>
-            <code className={styles.code}>$nomention
+            <code className={styles.code}>{`$nomention
 $onlyIf[$guildID!=;❌️ Can't use the command in dm!]
 $setUserVar[bsc;0;$authorID]
 $title[💣 Bomb Game 💥]
@@ -62,7 +62,7 @@ $addButton[yes;1️⃣-7-$authorID;⬛️;secondary]
 $addButton[no;💥-5-$authorID;⬛️;secondary]
 $addButton[no;💥-6-$authorID;⬛️;secondary]
 $addButton[no;2️⃣-5-$authorID;⬛️;secondary]
-$addButton[no;1️⃣-8-$authorID;⬛️;secondary]</code>
+$addButton[no;1️⃣-8-$authorID;⬛️;secondary]`}</code>
             <CopyTextButton text={`$nomention
 $onlyIf[$guildID!=;❌️ Can't use the command in dm!]
 $setUserVar[bsc;0;$authorID]
@@ -105,7 +105,7 @@ $addButton[no;1️⃣-8-$authorID;⬛️;secondary]`} />
 
           <div className={styles.snippet}>
             <p className={styles.snippet}>$onInteraction</p>
-            <code className={styles.code}>$nomention
+            <code className={styles.code}>{`$nomention
 $if[$customID==💥-1-$authorID]
 $setUserVar[bsc;0;$authorID]
 $title[💣 Bomb Game 💥]
@@ -559,7 +559,7 @@ $addButton[no;💥-5-$authorID;💥;secondary;yes]
 $addButton[no;💥-6-$authorID;💥;secondary;yes]
 $addButton[no;2️⃣-5-$authorID;2️⃣;secondary;yes]
 $addButton[no;1️⃣-8-$authorID;1️⃣;secondary;yes]
-$endif</code>
+$endif`}</code>
             <CopyTextButton text={`$nomention
 $if[$customID==💥-1-$authorID]
 $setUserVar[bsc;0;$authorID]
