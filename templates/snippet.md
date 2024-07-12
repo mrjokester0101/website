@@ -17,17 +17,16 @@ const Home = () => {
 
         <main className={styles.main}>
           <h1 className={styles.title}>
-            <Image src="/title.png" alt="Profile Icon" width={40} height={40} /> Name
+            <Image src="/title.png" alt="Profile Icon" width={40} height={40} /> ChatBot
           </h1>
 
           <div className={styles.snippet}>
-            <p className={styles.snippet}>Name</p>
-            <code className={styles.code}>Code here</code>
-            <CopyTextButton text={`Code here`} />
+            <p className={styles.snippet}>Code Here</code>
+     <CopyTextButton text={`Code Here`}/>
           </div>
 
           <div className={styles.grid}>
-            <a href="https://3621d689-8f08-41be-9cfd-27404c776dae-00-1y9ohzghjd8xs.spock.replit.dev/bdfd" className={styles.card}>
+            <a href="https://mrjokester.netlify.app/bdfd" className={styles.card}>
               <h2>BDFD Snippets</h2>
             </a>
           </div>
@@ -38,4 +37,5 @@ const Home = () => {
 };
 
 export default Home;
+
 ```
