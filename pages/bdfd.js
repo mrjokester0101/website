@@ -18,19 +18,19 @@ const Home = () => {
           </h1>
 
           <div className={styles.grid}>
-            <a href="https://mrjokester.netlify.app/bdfd/bomb" className={styles.card}>
+            <a href="https://mrjokester.netlify.app/bdfd-bomb" className={styles.card}>
               <h2>Bomb Game</h2>
             </a>
 
-            <a href="https://mrjokester.netlify.app/bdfd/chat" className={styles.card}>
+            <a href="https://mrjokester.netlify.app/bdfd-chat" className={styles.card}>
               <h2>ChatBot</h2>
             </a>
 
-            <a href="https://mrjokester.netlify.app/bdfd/user" className={styles.card}>
+            <a href="https://mrjokester.netlify.app/bdfd-user" className={styles.card}>
               <h2>User Info</h2>
             </a>
   
-            <a href="https://mrjokester.netlify.app/bdfd/server" className={styles.card}>
+            <a href="https://mrjokester.netlify.app/bdfd-server" className={styles.card}>
              <h2>Server Info</h2>
             </a>
           </div>
