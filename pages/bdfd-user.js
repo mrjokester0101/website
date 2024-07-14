@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../pages/bdfd/Home.module.css";
-import CopyTextButton from "../pages/bdfd/CopyTextButton";
+import styles from "../styles/Home.module.css";
+import CopyTextButton from "../components/bdfd/CopyTextButton";
 
 const Home = () => {
   return (
