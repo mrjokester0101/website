@@ -17,7 +17,8 @@ const Home = () => {
           <h1 className={styles.title}>
             <Image className={styles.image} src="/title.png" alt="Profile Icon"/>
           <h1 className={styles.title}>Server Info</h1>
-
+          </h1>
+  
           <div className={styles.snippet}>
             <p className={styles.snippet}>Name</p>
             <code className={styles.code}>{`$nomention
