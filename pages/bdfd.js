@@ -16,7 +16,8 @@ const Home = () => {
           <h1 className={styles.title}>
             <Image className={styles.image} src="/title.png" alt="Profile Icon"/>
           <h1 className={styles.title}>BDFD Snippets</h1>
-
+          </h1>
+  
           <div className={styles.grid}>
             <a href="https://mrjokester.netlify.app/bdfd-bomb" className={styles.card}>
               <h2>Bomb Game</h2>
