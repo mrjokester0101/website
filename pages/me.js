@@ -13,7 +13,7 @@ const Home = () => {
         </Head>
 
         <main className={styles.main}>
-          <Image src="/title.png" alt="Profile Icon" width={200} height={200} />
+          <Image src="/title.png" alt="Profile Icon" width={150} height={150} />
           <h1 className={styles.title}>About Me</h1>
 
           <div className={styles.description}>
