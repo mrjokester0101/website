@@ -14,41 +14,23 @@ const Home = () => {
 
         <main className={styles.main}>
           <h1 className={styles.title}>
-            <Image src="/title.png" alt="Profile Icon" width={40} height={40} /> About Me
+            <Image src="/title.png" alt="Profile Icon" width={100} height={100} />
+  About Me
           </h1>
 
           <div className={styles.description}>
-            <h1>Coding</h1>
-            <p>Medium Discord.js</p>
-            <p>Medium Next.js</p>
-            <p>Learning Python</p>
-            <p>A lot Bot Designer For Discord</p>
+            <p>Age: 13 Years Old</p>
+            <p>Country: Bulgaria</p>
+            <p>Email: mrjokester010@gmail.com</p>
           </div>
 
           <div className={styles.description}>
-            <h1>Favorite Foods</h1>
-            <p>Kremverski</p>
-            <p>Cupcakes</p>
-            <p>Pancakes</p>
+            <p>——————————————————————————————</p>
           </div>
 
           <div className={styles.description}>
-            <h1>Favorite Pets</h1>
-            <p>Cat</p>
-            <p>Dogs</p>
+            <p>Coding: Bot Designer For Discord, Python, Javascript, CSS, HTML</p>
           </div>
-
-          <div className={styles.description}>
-            <h1>Favorite Coding Languages</h1>
-            <p>Javascript</p>
-            <p>Python</p>
-          </div>
-
-          <div className={styles.description}>
-            <h1>Little bit more info about me</h1>
-            <p>I'm MrJokester, I'm 13 years old and love hobby coding, love to help people as well, and like reading books.</p>
-          </div>
-          
         </main>
       </div>
     </div>
