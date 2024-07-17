@@ -35,7 +35,7 @@
 
 .title {
   margin: auto;
-  font-size: 50px;
+  font-size: 160px;
 }
 
 .title a {
@@ -138,5 +138,10 @@
 @media (max-width: 600px) {
   .grid {
     width: 100%;
+  }
+
+  .title {
+    width: 100%;
+    font-size: 60px;
   }
 }
