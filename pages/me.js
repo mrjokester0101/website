@@ -25,7 +25,7 @@ const Home = () => {
           </div>
 
           <div className={styles.description}>
-            <p>——————————————————————————————</p>
+            <p>━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
           </div>
 
           <div className={styles.description}>
