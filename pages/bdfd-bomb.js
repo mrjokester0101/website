@@ -15,8 +15,8 @@ const Home = () => {
 
         <main className={styles.main}>
           <h1 className={styles.title}>
-            <Image src="/title.png" alt="Profile Icon" width={40} height={40} /> Bomb Game
-          </h1>
+            <Image className={styles.image} src="/title.png" alt="Profile Icon"/>
+          <h1 className={styles.title}>Bomb Game</h1>
 
           <div className={styles.snippet}>
             <p className={styles.snippet}>Vars</p>
