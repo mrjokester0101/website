@@ -56,7 +56,7 @@
   text-align: center;
   text-align: left;
   width: 100%;
-  font-size: 24px;
+  font-size: 124px;
   text-align: center;
 }
 
@@ -157,5 +157,16 @@
     width: 150px;
     height: 150px;
     align-item: center;
+  }
+
+  .description {
+  margin: 4rem 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  text-align: left;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
   }
 }
