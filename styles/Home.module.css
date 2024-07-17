@@ -36,6 +36,7 @@
 .title {
   margin: auto;
   font-size: 160px;
+  text-align: center;
 }
 
 .title a {
@@ -138,6 +139,7 @@
 .image {
   width: 300px;
   height: 300px;
+  align-items: center;
 }
 
 @media (max-width: 600px) {
@@ -148,10 +150,12 @@
   .title {
     margin: auto;
     font-size: 60px;
+    text-align: center;
   }
 
   .image {
     width: 150px;
     height: 150px;
+    align-item: center;
   }
 }
