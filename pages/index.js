@@ -28,11 +28,11 @@ const Home = () => {
             </a>
 
             <a href="https://discord.com/oauth2/authorize?client_id=1251525661185806336" className={styles.card}>
-              <h2>My Discord Bot</h2>
+              <h2>Doors Moderator Bot</h2>
             </a>
 
              <a href="https://discord.com/invite/VWEcYvKztc" className={styles.card}>
-              <h2>My Discord server</h2>
+              <h2>MrJokester Studios</h2>
             </a>
           </div>
         </main>
