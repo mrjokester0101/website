@@ -22,7 +22,7 @@ const Home = () => {
           <div className={styles.card}>
             <h2>BDFD Snippets</h2>
             <a href="https://mrjokester.netlify.app/bdfd" className={styles.card1}>
-              <h2>See Codes</h2>
+              <p>See Codes</p>
             </a>
           </div>
 
