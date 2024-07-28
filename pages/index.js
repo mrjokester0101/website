@@ -20,10 +20,9 @@ const Home = () => {
           </h1>
   
           <div className={styles.grid}>
-            <h2 className={styles.card}>BDFD Snippets
+            <h2 className={styles.card}>BDFD Snippets</h2>
             <a href="https://mrjokester.netlify.app/bdfd">
-              <h2>See Codes</h2>
-              <p>
+              <p>See Codes</p>
             </a>
 
             <a href="https://mrjokester.netlify.app/me" className={styles.card}>
