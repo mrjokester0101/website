@@ -16,7 +16,7 @@ const Home = () => {
           <h1 className={styles.title}>
             <Image className={styles.image} src="/title.png" alt="Profile Icon"/>
           <h1 className={styles.title}>MrJokester</h1>
-          <p> className={styles.description}>Testing</p>
+          <p className={styles.description}>Testing</p>
           </h1>
   
           <div className={styles.grid}>
