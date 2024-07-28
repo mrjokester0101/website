@@ -16,12 +16,14 @@ const Home = () => {
           <h1 className={styles.title}>
             <Image className={styles.image} src="/title.png" alt="Profile Icon"/>
           <h1 className={styles.title}>MrJokester</h1>
-          <p className={styles.description}>Testing</p>
+          <p className={styles.description}>Main Page</p>
           </h1>
   
           <div className={styles.grid}>
-            <a href="https://mrjokester.netlify.app/bdfd" className={styles.card}>
-              <h2>BDFD Snippets</h2>
+            <h2 className={styles.card}>BDFD Snippets
+            <a href="https://mrjokester.netlify.app/bdfd">
+              <h2>See Codes</h2>
+              <p>
             </a>
 
             <a href="https://mrjokester.netlify.app/me" className={styles.card}>
