@@ -21,7 +21,7 @@ const Home = () => {
   
           <div className={styles.grid}>
             <h2 className={styles.card}>BDFD Snippets</h2>
-            <a href="https://mrjokester.netlify.app/bdfd" className={styles.card}>
+            <a href="https://mrjokester.netlify.app/bdfd" className={styles.card1}>
               <p>See Codes</p>
             </a>
           </div>
