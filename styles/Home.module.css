@@ -59,9 +59,10 @@
 }
 
 .code {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New';
   font-size: 14px;
   line-height: 2;
+  justify-content: center;
   background-color: #444;
   border: 1px solid #888;
   border-radius: 5px;
@@ -163,7 +164,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 600px;
+  width: 100%;
   margin: auto;
   color: #fff;
   }
@@ -216,7 +217,7 @@
   border: 3px solid #84816c;
   border-radius: 5px;
   width: 60%;
-  height: 10px;
+  height: 100px;
   }
 
   .card1 {
