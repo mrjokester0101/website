@@ -9,14 +9,15 @@ const Home = () => {
       <div className={styles.container}>
         <Head>
           <title>MrJokester</title>
-          <meta name="description" content="My Website" />
+          <meta name="description" content="BDFD ChatBot Snippet" />
           <link rel="icon" href="/profile.png" />
         </Head>
 
         <main className={styles.main}>
           <h1 className={styles.title}>
             <Image className={styles.image} src="/title.png" alt="Profile Icon"/>
-          <h1 className={styles.title}>ChatBot</h1>
+          <h1 className={styles.title}>MrJokester</h1>
+          <p className={styles.description}>ChatBot</p>
           </h1>
   
           <div className={styles.snippet}>
