@@ -41,7 +41,7 @@ const Home = () => {
           </div>
 
           <div className={styles.card}>
-            <h2>MrJokester Studios
+            <h2>MrJokester Studios</h2>
             <a href="https://discord.com/invite/VWEcYvKztc" className={styles.card1}>
               <p>Get Invite</p>
             </a>
