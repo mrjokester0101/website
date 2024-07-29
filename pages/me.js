@@ -31,6 +31,16 @@ const Home = () => {
           <div className={styles.description}>
             <p>Coding: Bot Designer For Discord, Python, Javascript, CSS, HTML</p>
           </div>
+  
+          <div className={styles.grid}>
+            <div className={styles.card}>
+            <h2>Main Page</h2>
+            <a href="https://mrjokester.netlify.app/" className={styles.card1}>
+              <p>Go Back</p>
+            </a>
+            </div>
+          </div>
+  
         </main>
       </div>
     </div>
