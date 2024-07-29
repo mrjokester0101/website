@@ -15,7 +15,8 @@ const Home = () => {
         <main className={styles.main}>
           <h1 className={styles.title}>
             <Image className={styles.image} src="/title.png" alt="Profile Icon"/>
-          <h1 className={styles.title}>About Me</h1>
+          <h1 className={styles.title}>MrJokester</h1>
+          <p className={styles.description}>About Me</p>
           </h1>
   
           <div className={styles.description}>
