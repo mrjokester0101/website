@@ -62,6 +62,7 @@
   font-family: 'Courier New';
   font-size: 14px;
   line-height: 2;
+  white-space: nowrap;
   justify-content: center;
   background-color: #444;
   border: 1px solid #888;
@@ -217,7 +218,7 @@
   border: 3px solid #84816c;
   border-radius: 5px;
   width: 80%;
-  height: 100px;
+  height: 150px;
   }
 
   .card1 {
