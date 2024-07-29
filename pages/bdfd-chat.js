@@ -67,9 +67,12 @@ $endif`}/>
           </div>
 
           <div className={styles.grid}>
-            <a href="https://mrjokester.netlify.app/bdfd" className={styles.card}>
-              <h2>BDFD Snippets</h2>
+            <div className={styles.card}>
+            <h2>BDFD Snippets</h2>
+            <a href="https://mrjokester.netlify.app/bdfd" className={styles.card1}>
+              <p>See Codes</p>
             </a>
+            </div>
           </div>
         </main>
       </div>
