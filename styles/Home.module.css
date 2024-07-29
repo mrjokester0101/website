@@ -3,17 +3,17 @@
 }
 
 .all {
-  background-color: #111;
+  background-color: #302f15;
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 4rem 0;a
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #111;
+  background-color: #302f15;
   color: #fff;
   width: 100%;
   height: 100%;
