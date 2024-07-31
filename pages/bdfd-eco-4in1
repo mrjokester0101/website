@@ -26,7 +26,7 @@ const Home = () => {
 2. Name: "bank" Value: "0"`}</code>
           </div>
           <div className={styles.snippet}>
-            <p className={styles.snippet}>Your Bot Trigger</p>
+            <p className={styles.snippet}>!</p>
             <code className={styles.code}>{`$nomention
 
 $if[$or[$message[1]==bal;$message[1]==bala;$message[1]==balan;$message[1]==balanc;$message[1]==balance]==true]
