@@ -33,7 +33,9 @@ const Home = () => {
               <p>Get Code</p>
             </a>
           </div>
-
+        </div>
+  
+        <div className={styles.grid}>
           <div className={styles.card}>
             <h2>{`User Info`}</h2>
             <a href="https://mrjokester.netlify.app/bdfd-user" className={styles.card1}>
@@ -47,14 +49,15 @@ const Home = () => {
               <p>Get Code</p>
             </a>
           </div>
-  
+        </div>
+
+        <div className={styles.grid}>
           <div className={styles.card}>
             <h2>{`Basic Economy 4 in 1 Commands`}</h2>
             <a href="https://mrjokester.netlify.app/bdfd-eco-4in1" className={styles.card1}>
               <p>Get Code</p>
             </a>
           </div>
-         
         </div>
         </main>
       </div>
