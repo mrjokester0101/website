@@ -21,14 +21,14 @@ const Home = () => {
         <div className={styles.grid}>
           <div className={styles.card}>
             <h2>BDFD Snippets</h2>
-            <a href="https://mrjokester.netlify.app/bdfd" className={styles.linkcard}>
+            <a href="https://mrjokester.vercel.app/bdfd" className={styles.linkcard}>
               <p>See Codes</p>
             </a>
           </div>
 
           <div className={styles.card}>
             <h2>About Me</h2>
-            <a href="https://mrjokester.netlify.app/me" className={styles.linkcard}>
+            <a href="https://mrjokester.vercel.app/me" className={styles.linkcard}>
               <p>Click Me</p>
             </a>
           </div>
