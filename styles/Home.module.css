@@ -111,7 +111,7 @@
   height: 100px;
 }
 
-.card1 {
+.linkcard {
   flex: 0 1 calc(50% - 2rem);
   font-size: 50px;
   text-align: center;
@@ -120,9 +120,9 @@
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
-.card1:hover,
-.card1:focus,
-.card1:active {
+.linkcard:hover,
+.linkcard:focus,
+.linkcard:active {
   color: #18f327;
 }
 
@@ -137,12 +137,12 @@
   line-height: 1.5;
 }
 
-.card1 h2 {
+.linkcard h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
 
-.card1 p {
+.linkcard p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -234,7 +234,7 @@
   height: 150px;
   }
 
-  .card1 {
+  .linkcard {
   flex: 0 1 calc(50% - 2rem);
   font-size: 2.5px;
   text-align: center;
