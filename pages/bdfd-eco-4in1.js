@@ -205,7 +205,7 @@ $endif`}/>
           <div className={styles.grid}>
             <div className={styles.card}>
             <h2>BDFD Snippets</h2>
-            <a href="https://mrjokester.netlify.app/bdfd" className={styles.linkcard}>
+            <a href="https://mrjokester.vercel.app/bdfd" className={styles.linkcard}>
               <p>See Codes</p>
             </a>
             </div>
