@@ -36,7 +36,7 @@ const Home = () => {
           <div className={styles.grid}>
             <div className={styles.card}>
             <h2>Main Page</h2>
-            <a href="https://mrjokester.netlify.app/" className={styles.card1}>
+            <a href="https://mrjokester.netlify.app/" className={styles.linkcard}>
               <p>Go Back</p>
             </a>
             </div>
