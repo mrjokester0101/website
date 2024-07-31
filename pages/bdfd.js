@@ -47,7 +47,7 @@ const Home = () => {
             </div>
 
             <div className={styles.card}>
-              <h2>Basic Economy 4 in 1 Commands</h2>
+              <h2>Economy 4 in 1 Commands</h2>
               <a href="https://mrjokester.vercel.app/bdfd-eco-4in1" className={styles.linkcard}>
                 <p>Get Code</p>
               </a>
