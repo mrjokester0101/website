@@ -21,12 +21,12 @@ const Home = () => {
           </h1>
 
           <div className={styles.snippet}>
-            <p className={styles.snippet}>Vars</p>
+            <p className={styles.snippet}>Variables</p>
             <code className={styles.code}>{`1. Name: bsc Value: 0`}</code>
           </div>
           
           <div className={styles.snippet}>
-            <p className={styles.snippet}>Main Code</p>
+            <p className={styles.snippet}>!bomb</p>
             <code className={styles.code}>{`$nomention
 $onlyIf[$guildID!=;❌️ Can't use the command in dm!]
 $setUserVar[bsc;0;$authorID]
