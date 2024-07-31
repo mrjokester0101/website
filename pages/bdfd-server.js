@@ -21,7 +21,7 @@ const Home = () => {
           </h1>
   
           <div className={styles.snippet}>
-            <p className={styles.snippet}>Name</p>
+            <p className={styles.snippet}>!server info</p>
             <code className={styles.code}>{`$nomention
 $onlyIf[$guildID!=;❌️ Can't use command in dm!]
 $thumbnail[$serverIcon]
