@@ -1,11 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const Home = () => {
   return (
-    <SpeedInsights>
     <div className={styles.all}>
       <div className={styles.container}>
         <Head>
@@ -47,7 +45,6 @@ const Home = () => {
         </main>
       </div>
     </div>
-  </SpeedInsights>
   );
 };
 
