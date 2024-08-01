@@ -2,9 +2,11 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import CopyTextButton from "../components/CopyTextButton";
+import SpeedInsights from "../@vercel/speed-insights/next";
 
 const Home = () => {
   return (
+    <SpeedInsights>
     <div className={styles.all}>
       <div className={styles.container}>
         <Head>
@@ -78,6 +80,7 @@ $endif`}/>
         </main>
       </div>
     </div>
+  </SpeedInsights/>
   );
 };
 
