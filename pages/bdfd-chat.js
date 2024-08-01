@@ -80,7 +80,7 @@ $endif`}/>
         </main>
       </div>
     </div>
-  </SpeedInsights/>
+  </SpeedInsights>
   );
 };
 
