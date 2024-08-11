@@ -35,7 +35,7 @@ const Home = () => {
   
           <div className={styles.card}>
             <h2>Doors Moderator Bot</h2>
-            <a href="https://discord.com/oauth2/authorize?client_id=1251525661185806336" className={styles.linkcard}>
+            <a href="https://discord.com/oauth2/authorize?client_id=1251525661185806336&permissions=8&integration_type=0&scope=bot" className={styles.linkcard}>
               <p>Get Invite</p>
             </a>
           </div>
