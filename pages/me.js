@@ -51,15 +51,6 @@ const Home = () => {
             <p>Coding: Bot Designer For Discord, Python, Javascript, CSS, HTML</p>
           </div>
   
-          <div className={styles.grid}>
-            <div className={styles.card}>
-            <h2>Main Page</h2>
-            <a href="https://mrjokester.vercel.app/" className={styles.linkcard}>
-              <p>Go Back</p>
-            </a>
-            </div>
-          </div>
-  
         </main>
       </div>
     </div>
