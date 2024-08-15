@@ -295,4 +295,15 @@
   color: #555;
   transform: scale(1.05);
 }
+
+  .button h2 {
+  margin: 0 0 1rem 0;
+  font-size: 0.5rem;
+}
+
+.button p {
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
 }
