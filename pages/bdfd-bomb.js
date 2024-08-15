@@ -20,6 +20,24 @@ const Home = () => {
           <p className={styles.description}>Bomb Game</p>
           </h1>
 
+         <div className={styles.buttons}>
+          <button
+            className={styles.button}
+            onClick={() => window.location.href = 'https://mrjokester.vercel.app/'}>
+            <h2>Main Page</h2>
+          </button>
+          <button
+            className={styles.button}
+            onClick={() => window.location.href = 'https://mrjokester.vercel.app/me'}>
+            <h2>About Me</h2>
+          </button>
+          <button
+            className={styles.button}
+            onClick={() => window.location.href = 'https://mrjokester.vercel.app/bdfd'}>
+            <h2>BDFD Snippets</h2>
+          </button>
+        </div>
+  
           <div className={styles.snippet}>
             <p className={styles.snippet}>Variables</p>
             <code className={styles.code}>{`1. Name: bsc Value: 0`}</code>
