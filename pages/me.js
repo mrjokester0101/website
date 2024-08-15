@@ -30,7 +30,7 @@ const Home = () => {
             onClick={() => window.location.href = 'https://mrjokester.vercel.app/me'}>
             <h2>About Me</h2>
           </button>
-          <buvtton
+          <button
             className={styles.button}
             onClick={() => window.location.href = 'https://mrjokester.vercel.app/bdfd'}>
             <h2>BDFD Snippets</h2>
