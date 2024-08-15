@@ -17,6 +17,24 @@ const Home = () => {
           <h1 className={styles.title}>MrJokester</h1>
           <p className={styles.description}>BDFD Snippets</p>
   
+         <div className={styles.buttons}>
+          <button
+            className={styles.button}
+            onClick={() => window.location.href = 'https://mrjokester.vercel.app/'}>
+            <h2>Main Page</h2>
+          </button>
+          <button
+            className={styles.button}
+            onClick={() => window.location.href = 'https://mrjokester.vercel.app/me'}>
+            <h2>About Me</h2>
+          </button>
+          <button
+            className={styles.button}
+            onClick={() => window.location.href = 'https://mrjokester.vercel.app/bdfd'}>
+            <h2>BDFD Snippets</h2>
+          </button>
+        </div>
+          
           <div className={styles.grid}>
             <div className={styles.card}>
               <h2>Bomb Game</h2>
