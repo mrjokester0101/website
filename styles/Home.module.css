@@ -172,12 +172,12 @@
   transform: scale(1.05);
 }
 
-.card h2 {
+.button h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
 
-.card p {
+.button p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
@@ -277,4 +277,22 @@
   color: #16c121;
   transition: color 0.15s ease, border-color 0.15s ease;
   }
+
+  .button {
+  padding: 2.5px 5px;
+  background-color: #333;
+  border: 1px solid #888;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.25rem;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  color: #555;
+  transform: scale(1.05);
+}
 }
