@@ -113,14 +113,6 @@ $color[$random[0;999999]]`}/>
   
           </div>
 
-          <div className={styles.grid}>
-            <div className={styles.card}>
-            <h2>BDFD Snippets</h2>
-            <a href="https://mrjokester.vercel.app/bdfd" className={styles.linkcard}>
-              <p>See Codes</p>
-            </a>
-            </div>
-          </div>
         </main>
       </div>
     </div>
