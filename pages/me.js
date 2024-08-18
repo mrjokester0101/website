@@ -48,7 +48,7 @@ const Home = () => {
           </div>
 
           <div className={styles.description}>
-            <p>Coding: Bot Designer For Discord, Python, Javascript, CSS, HTML</p>
+            <p>Coding: Bot Designer For Discord, Python, Javascript, CSS, Json, HTML</p>
           </div>
   
         </main>
