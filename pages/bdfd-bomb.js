@@ -1037,14 +1037,6 @@ $addButton[no;1️⃣-8-$authorID;1️⃣;secondary;yes]
 $endif`} />
           </div>
 
-          <div className={styles.grid}>
-            <div className={styles.card}>
-            <h2>BDFD Snippets</h2>
-            <a href="https://mrjokester.vercel.app/bdfd" className={styles.linkcard}>
-              <p>See Codes</p>
-            </a>
-            </div>
-          </div>
         </main>
       </div>
     </div>
