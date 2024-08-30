@@ -38,17 +38,18 @@ const Home = () => {
         </div>
   
           <div className={styles.description}>
-            <p>Age: 13 Years Old</p>
-            <p>Country: Bulgaria</p>
-            <p>Email: mrjokester0101@gmail.com</p>
-          </div>
+<h2>1. Introduction</h2>
+<p>   • Name: MrJokester</p>
+<p>   • Age: 13 years old</p>
+<p>   • Gender: Male</p>
+<p>   • Hobbies: Coding, Designing Games</p>
+<p>   • Country: Bulgaria</p>
 
-          <div className={styles.description}>
-            <p>━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
-          </div>
+<h2>2. Skills</h2>
+<p>   • Technical Skills: Javascript, Python, CSS, Json, HTML, BDFD</p>
 
-          <div className={styles.description}>
-            <p>Coding: Bot Designer For Discord, Python, Javascript, CSS, Json, HTML</p>
+<h2>3. Contact Information</h2>
+<p>   • Email: mrjokester0101@gmail.com</p>
           </div>
   
         </main>
