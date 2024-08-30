@@ -47,7 +47,7 @@ const Home = () => {
 
 <h2>2. Skills</h2>
 <p>   • Technical Skills: Javascript, Python,</p>
-<p>     CSS, Json, HTML, BDFD</p>
+<p>     CSS, Json, HTML, BDScript</p>
 
 <h2>3. Contact Information</h2>
 <p>   • Email: mrjokester0101@gmail.com</p>
