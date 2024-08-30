@@ -39,6 +39,16 @@
   margin: 4rem 0;
   font-size: 1.5rem;
   line-height: 1.5;
+  text-align: center;
+  width: 100%;
+  font-size: 48px;
+  white-space: pre;
+}
+
+.aboutme {
+  margin: 4rem 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
   text-align: left;
   width: 100%;
   font-size: 48px;
@@ -207,12 +217,22 @@
   margin: 4rem 0;
   font-size: 1.5rem;
   line-height: 1.5;
-  text-align: left;
+  text-align: center;
   width: 100%;
   font-size: 17px;
   white-space: pre;
   }
 
+  .aboutme {
+  margin: 4rem 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: left;
+  width: 100%;
+  font-size: 48px;
+  white-space: pre;
+  }
+  
   .snippet {
   display: flex;
   flex-direction: column;
