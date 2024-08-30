@@ -37,7 +37,7 @@ const Home = () => {
           </button>
         </div>
   
-          <div className={styles.description}>
+          <div className={styles.aboutme}>
 <h2>1. Introduction</h2>
 <p>   • Name: MrJokester</p>
 <p>   • Age: 13 years old</p>
@@ -46,7 +46,8 @@ const Home = () => {
 <p>   • Country: Bulgaria</p>
 
 <h2>2. Skills</h2>
-<p>   • Technical Skills: Javascript, Python, CSS, Json, HTML, BDFD</p>
+<p>   • Technical Skills: Javascript, Python,</p>
+<p>     CSS, Json, HTML, BDFD</p>
 
 <h2>3. Contact Information</h2>
 <p>   • Email: mrjokester0101@gmail.com</p>
