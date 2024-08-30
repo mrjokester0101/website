@@ -42,6 +42,7 @@
   text-align: center;
   width: 100%;
   font-size: 48px;
+  white-space: pre;
 }
 
 .code {
@@ -209,6 +210,7 @@
   text-align: center;
   width: 100%;
   font-size: 17px;
+  white-space: pre;
   }
 
   .snippet {
