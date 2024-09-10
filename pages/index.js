@@ -12,7 +12,7 @@ const Home = () => {
           <link rel="icon" href="/profile.png" />
         </Head>
         <main className={styles.main}>
-          <div className={styles.titleContainer}>
+          <div>
             <Image className={styles.image} src="/title.png" alt="Profile Icon" />
             <h1 className={styles.title}>MrJokester</h1>
           </div>
