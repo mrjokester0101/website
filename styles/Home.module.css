@@ -21,7 +21,7 @@
 
 .title {
   margin: auto;
-  font-size: 60px;
+  font-size: 100px;
 }
 
 .title a {
@@ -202,7 +202,7 @@
 
   .title {
     margin: auto;
-    text-align: center;
+    font-size: 50px;
   }
 
   .image {
