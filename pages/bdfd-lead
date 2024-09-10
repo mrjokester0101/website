@@ -9,7 +9,7 @@ const Home = () => {
       <div className={styles.container}>
         <Head>
           <title>MrJokester</title>
-          <meta name="description" content="BDFD Basic Economy Commands 4 in 1 Snippet" />
+          <meta name="description" content="BDFD Leaderboard Command Snippet" />
           <link rel="icon" href="/profile.png" />
         </Head>
 
