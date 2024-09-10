@@ -14,10 +14,9 @@ const Home = () => {
         </Head>
 
         <main className={styles.main}>
-          <div>
-            <Image className={styles.image} src="/title.png" alt="Profile Icon" />
-            <h1 className={styles.title}>MrJokester</h1>
-          </div>
+          <h1 className={styles.title}>
+             <Image className={styles.image} src="/title.png" alt="Profile Icon"/>MrJokester
+          </h1>
           <p className={styles.description}>Chat Bot</p>
 
           <div className={styles.buttons}>
