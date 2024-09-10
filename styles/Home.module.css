@@ -22,7 +22,6 @@
 .title {
   margin: auto;
   font-size: 60px;
-  text-align: center;
 }
 
 .title a {
@@ -203,7 +202,6 @@
 
   .title {
     margin: auto;
-    font-size: 30px;
     text-align: center;
   }
 
