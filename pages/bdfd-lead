@@ -9,7 +9,7 @@ const Home = () => {
       <div className={styles.container}>
         <Head>
           <title>MrJokester</title>
-          <meta name="description" content="BDFD Leaderboard Command Snippet" />
+          <meta name="description" content="BDFD Leaderboard Snippet" />
           <link rel="icon" href="/profile.png" />
         </Head>
 
@@ -17,7 +17,7 @@ const Home = () => {
           <h1 className={styles.title}>
              <Image className={styles.image} src="/title.png" alt="Profile Icon"/> MrJokester
           </h1>
-          <p className={styles.description}>Leaderboard Command</p>
+          <p className={styles.description}>Leaderboard</p>
 
          <div className={styles.buttons}>
           <button
