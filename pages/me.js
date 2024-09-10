@@ -6,11 +6,11 @@ const Home = () => {
   return (
     <div className={styles.all}>
       <div className={styles.container}>
-        <Head>
-          <title>MrJokester</title>
-          <meta name="description" content="About Me" />
-          <link rel="icon" href="/profile.png" />
-        </Head>
+        <div>
+           <img src="/profile.png" alt="MrJokester Logo" className={styles.image} />
+           <h1 style={styles.title}>MrJokester</h1>
+        </div>
+
 
         <main className={styles.main}>
           <h1 className={styles.title}>
