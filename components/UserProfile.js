@@ -9,7 +9,7 @@ const UserProfile = () => {
 
   return (
     <div className={styles.container}>
-      <button className={styles.profileButton} onClick={toggleProfile}>
+      <button className={`${styles.profileButton} ${isOpen ? styles.buttonOpen : ''}`} onClick={toggleProfile}>
         {isOpen ? 'Hide Profile' : 'Show Profile'}
       </button>
 
