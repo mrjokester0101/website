@@ -5,12 +5,6 @@ import styles from '../styles/Profile.module.css';
 const UserProfile = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const user = {
-    name: 'MrJokester',
-    roles: ['Coder', 'Designer'],
-    avatar: '/profile.png',
-  };
-
   const toggleProfile = () => setIsOpen(prev => !prev);
 
   return (
@@ -19,32 +13,26 @@ const UserProfile = () => {
         {isOpen ? 'Hide Profile' : 'Show Profile'}
       </button>
 
-      {isOpen && (
-        <div className={styles.profileDetails}>
-          <Image
-            src={user.avatar}
-            alt={`${user.name}'s Avatar`}
-            width={100}
-            height={100}
-            className={styles.avatar}
-          />
+      <div
+        className={`${styles.profileDetails} ${isOpen ? styles.show : styles.hide}`}
+      >
+        <Image
+          src="/profile.png"
+          alt="Profile Avatar"
+          width={100}
+          height={100}
+          className={styles.avatar}
+        />
 
-          <div className={styles.userInfo}>
-            <h2 className={styles.userName}>{user.name}</h2>
+        <div className={styles.userInfo}>
+          <h2 className={styles.userName}>MrJokester</h2>
 
-            <div className={styles.userRoles}>
-              {user.roles.map((role, index) => (
-                <span
-                  key={index}
-                  className={`${styles.userRole} ${styles[`role${role}`]}`}
-                >
-                  {role}
-                </span>
-              ))}
-            </div>
+          <div className={styles.userRoles}>
+            <span className={`${styles.userRole} ${styles.roleCoder}`}>Coder</span>
+            <span className={`${styles.userRole} ${styles.roleDesigner}`}>Designer</span>
           </div>
         </div>
-      )}
+      </div>
     </div>
   );
 };
