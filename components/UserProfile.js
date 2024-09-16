@@ -9,15 +9,15 @@ const UserProfile = () => {
 
   return (
     <div className={styles.userProfileContainer}>
-      {/* The button styled with CSS */}
       <button className={styles.profileButton} onClick={toggleProfile}>
-        {isOpen ? <img className={styles.discordIcon} src="/discord_label.png" alt="Hide Profile" /> : <img className={styles.discordIcon} src="/discord_label.png" alt="Show Profile" />}
+        <img
+          className={styles.discordIcon}
+          src="/discord_label.png"
+          alt={isOpen ? 'Hide Profile' : 'Show Profile'}
+        />
       </button>
 
-      {/* Profile details */}
-      <div
-        className={`${styles.profileDetails} ${isOpen ? styles.show : styles.hide}`}
-      >
+      <div className={`${styles.profileDetails} ${isOpen ? styles.show : styles.hide}`}>
         <Image
           src="/profile.png"
           alt="Profile Avatar"
@@ -25,10 +25,8 @@ const UserProfile = () => {
           height={100}
           className={styles.avatar}
         />
-
         <div className={styles.userInfo}>
           <h2 className={styles.userName}>MrJokester</h2>
-
           <div className={styles.userRoles}>
             <span className={`${styles.userRole} ${styles.roleCoder}`}>Coder</span>
             <span className={`${styles.userRole} ${styles.roleDesigner}`}>Designer</span>
