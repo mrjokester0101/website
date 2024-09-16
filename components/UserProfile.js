@@ -11,7 +11,7 @@ const UserProfile = () => {
     <div className={styles.userProfileContainer}>
       {/* The button styled with CSS */}
       <button className={styles.profileButton} onClick={toggleProfile}>
-        {isOpen ? <img src="/discord_label.png" alt="Hide Profile" /> : <img src="/discord_label.png" alt="Show Profile" />}
+        {isOpen ? <img className={styles.discordIcon} src="/discord_label.png" alt="Hide Profile" /> : <img className={styles.discordIcon} src="/discord_label.png" alt="Show Profile" />}
       </button>
 
       {/* Profile details */}
