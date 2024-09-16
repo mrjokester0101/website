@@ -6,19 +6,10 @@
 }
 
 .profileButton {
-  background-color: #333;
-  color: white;
-  border: 3px solid #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
   cursor: pointer;
-  font-size: 16px;
-  text-align: center;
-  transition: background-color 0.3s ease;
-}
-
-.profileButton:hover {
-  background-color: #222;
 }
 
 .profileDetails {
@@ -86,18 +77,11 @@
 }
 
 .discordIcon {
-  width: 24px;
-  height: 24px;
   object-fit: contain;
   background-color: transparent;
-  margin: 0;
 }
 
 @media (max-width: 600px) {
-  .profileButton {
-    font-size: 14px;
-  }
-
   .profileDetails {
     width: 90%;
   }
@@ -113,10 +97,5 @@
 
   .userRole {
     font-size: 16px;
-  }
-
-  .discordIcon {
-    width: 18px;
-    height: 18px;
   }
 }
