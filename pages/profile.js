@@ -5,7 +5,7 @@ export default function UserProfile() {
   const user = {
     name: 'MrJokester',
     roles: ['Coder', 'Designer'],
-    avatar: '/avatar.png',
+    avatar: '/profile.png',
   };
 
   return (
