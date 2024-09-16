@@ -10,10 +10,12 @@ const UserProfile = () => {
   return (
     <div className={styles.userProfileContainer}>
       <button className={styles.profileButton} onClick={toggleProfile}>
-        <img
-          className={styles.discordIcon}
+        <Image
           src="/discord_label.png"
           alt={isOpen ? 'Hide Profile' : 'Show Profile'}
+          width={50}
+          height={50}
+          className={styles.discordIcon}
         />
       </button>
 
