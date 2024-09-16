@@ -1,4 +1,4 @@
-.container {
+.userProfileContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,46 +13,21 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  z-index: 2; /* Ensure the button is above other content */
-}
-
-.profileButton:hover {
-  background-color: #005bb5;
-}
-
-.profileButton:active {
-  transform: scale(0.98);
-}
-
-.buttonOpen {
-  background-color: #005bb5; /* Darker color when the profile is open */
-}
-
-.profileDetailsContainer {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000; /* Ensure it's on top of other content */
 }
 
 .profileDetails {
-  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for the profile details */
-  color: #000;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Background color */
   padding: 20px;
   border-radius: 10px;
-  position: relative;
-  width: 80%;
-  max-width: 400px;
+  color: white;
   opacity: 0;
   max-height: 0;
   overflow: hidden;
-  transition: opacity 1s ease, max-height 1s ease; /* Increased duration to 1 second */
+  transition: opacity 0.3s ease, max-height 0.3s ease;
 }
 
 .profileDetails.show {
@@ -63,16 +38,6 @@
 .profileDetails.hide {
   opacity: 0;
   max-height: 0;
-}
-
-.closeButton {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: transparent;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
 }
 
 .avatar {
