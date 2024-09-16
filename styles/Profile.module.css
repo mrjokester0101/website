@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  z-index: 1; /* Ensure container is above the background but below the overlay */
 }
 
 .profileButton {
@@ -14,6 +15,7 @@
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 2; /* Ensure the button is above other content but below the overlay */
 }
 
 .profileButton:hover {
@@ -53,6 +55,7 @@
   max-height: 0;
   overflow: hidden;
   transition: opacity 1s ease, max-height 1s ease; /* Increased duration to 1 second */
+  z-index: 1010; /* Ensure it's on top of the overlay */
 }
 
 .profileDetails.show {
@@ -73,6 +76,7 @@
   border: none;
   font-size: 24px;
   cursor: pointer;
+  z-index: 1020; /* Ensure it's on top of the profile details */
 }
 
 .avatar {
