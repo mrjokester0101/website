@@ -84,6 +84,11 @@
   background-color: #f39c12; /* Orange color for 'Designer' role */
 }
 
+.discordIcon {
+  width: 15px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 1);
+}
 @media (max-width: 600px) {
   .profileButton {
     font-size: 14px;
@@ -104,5 +109,11 @@
 
   .userRole {
     font-size: 16px;
+  }
+
+  .discordIcon {
+    width: 5px;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 1);
   }
 }
