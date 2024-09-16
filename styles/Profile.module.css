@@ -8,7 +8,7 @@
 .profileButton {
   background-color: #333;
   color: white; /* White text */
-  border: #fff 3px; /* Remove border */
+  border: 3px solid #fff;
   padding: 10px 20px; /* Padding inside the button */
   border-radius: 5px; /* Rounded corners */
   cursor: pointer; /* Pointer cursor on hover */
@@ -18,7 +18,7 @@
 }
 
 .profileButton:hover {
-  background-color: #005bb5; /* Darker blue on hover */
+  background-color: #222; /* Darker blue on hover */
 }
 
 .profileDetails {
