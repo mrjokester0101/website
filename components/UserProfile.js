@@ -9,10 +9,12 @@ const UserProfile = () => {
 
   return (
     <div className={styles.userProfileContainer}>
+      {/* The button styled with CSS */}
       <button className={styles.profileButton} onClick={toggleProfile}>
         {isOpen ? 'Hide Profile' : 'Show Profile'}
       </button>
 
+      {/* Profile details */}
       <div
         className={`${styles.profileDetails} ${isOpen ? styles.show : styles.hide}`}
       >
