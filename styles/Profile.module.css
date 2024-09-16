@@ -13,6 +13,19 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.profileButton:hover {
+  background-color: #005bb5;
+}
+
+.profileButton:active {
+  transform: scale(0.98);
+}
+
+.buttonOpen {
+  background-color: #005bb5; /* Darker color when the profile is open */
 }
 
 .overlay {
