@@ -6,13 +6,19 @@
 }
 
 .profileButton {
-  background-color: #0070f3;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
+  background-color: #0070f3; /* Blue background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size for the text */
+  text-align: center; /* Center the text */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.profileButton:hover {
+  background-color: #005bb5; /* Darker blue on hover */
 }
 
 .profileDetails {
@@ -20,7 +26,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.7); /* Background color */
+  background-color: rgba(0, 0, 0, 0.7); /* Black transparent background */
   padding: 20px;
   border-radius: 10px;
   color: white;
@@ -71,11 +77,11 @@
 }
 
 .roleCoder {
-  background-color: #0070f3; /* Example color for 'Coder' role */
+  background-color: #0070f3; /* Blue color for 'Coder' role */
 }
 
 .roleDesigner {
-  background-color: #f39c12; /* Example color for 'Designer' role */
+  background-color: #f39c12; /* Orange color for 'Designer' role */
 }
 
 @media (max-width: 600px) {
