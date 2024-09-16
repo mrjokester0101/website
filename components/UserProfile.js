@@ -14,7 +14,7 @@ const UserProfile = () => {
       </button>
 
       {isOpen && (
-        <div className={styles.overlay} onClick={() => setIsOpen(false)}>
+        <div className={styles.profileDetailsContainer} onClick={() => setIsOpen(false)}>
           <div className={styles.profileDetails} onClick={e => e.stopPropagation()}>
             <button className={styles.closeButton} onClick={() => setIsOpen(false)}>
               &times;
