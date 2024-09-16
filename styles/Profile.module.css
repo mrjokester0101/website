@@ -1,34 +1,39 @@
-.pageContainer {
+.userProfileContainer {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
-  position: relative;
-  overflow: hidden;
 }
 
-.profileContainer {
+.profileButton {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.profileDetails {
+  margin-top: 20px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 20px;
   border-radius: 10px;
   color: white;
-  z-index: 1;
-  flex-direction: row;
-  width: 80%;
-  max-width: 400px;
 }
 
 .avatar {
   border-radius: 50%;
-  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .userInfo {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .userName {
@@ -39,6 +44,7 @@
 .userRoles {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .userRole {
@@ -57,58 +63,16 @@
   background-color: #f39c12; /* Example color for 'Designer' role */
 }
 
-.openModalButton {
-  background-color: #0070f3;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.modalOverlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.modalContent {
-  background: #fff;
-  color: #000;
-  padding: 20px;
-  border-radius: 10px;
-  position: relative;
-  width: 80%;
-  max-width: 400px;
-}
-
-.closeModalButton {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: transparent;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
-}
-
 @media (max-width: 600px) {
-  .profileContainer {
-    flex-direction: column;
-    align-items: center;
-    padding: 15px;
+  .profileButton {
+    font-size: 14px;
+  }
+
+  .profileDetails {
     width: 90%;
   }
 
   .avatar {
-    margin-right: 0;
-    margin-bottom: 10px;
     width: 80px;
     height: 80px;
   }
