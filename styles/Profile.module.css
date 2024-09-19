@@ -125,7 +125,7 @@ a.userProfileContainer {
 
 @media (max-width: 600px) {
   .profileDetails {
-    width: 70%;
+    width: 50%;
   }
 
   .avatar {
