@@ -28,7 +28,7 @@ a.userProfileContainer {
   transform-origin: top;
   transition: opacity 0.3s ease, transform 0.3s ease;
   font-family: sans-serif;
-  width: 40%;
+  width: 50%;
 }
 
 .profileDetails.show {
@@ -125,7 +125,7 @@ a.userProfileContainer {
 
 @media (max-width: 600px) {
   .profileDetails {
-    width: 50%;
+    width: 60%;
   }
 
   .avatar {
