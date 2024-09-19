@@ -12,8 +12,6 @@ const UserProfile = () => {
       <button className={styles.profileButton} onClick={toggleProfile}>
         <Image
           src="/discord_label.png"
-          width="50"
-          height="50"
           alt={isOpen ? 'Hide Profile' : 'Show Profile'}
           className={styles.discordIcon}
         />
@@ -25,8 +23,6 @@ const UserProfile = () => {
         <Image
           src="/profile.png"
           alt="Profile Avatar"
-          width={100}
-          height={100}
           className={styles.avatar}
         />
         <div className={styles.userInfo}>
