@@ -1,4 +1,4 @@
-.userProfileContainer {
+a.userProfileContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,6 +28,7 @@
   transform-origin: top;
   transition: opacity 0.3s ease, transform 0.3s ease;
   font-family: sans-serif;
+  width: 40%;
 }
 
 .profileDetails.show {
