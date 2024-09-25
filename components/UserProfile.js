@@ -18,8 +18,6 @@ const UserProfile = () => {
       </button>
 
       <div className={`${styles.profileDetails} ${isOpen ? styles.show : styles.hide}`}>
-        <h2 className={styles.avatarBackground}>‎ 
-        </h2>
         <Image
           src="/profile.png"
           alt="Profile Avatar"
