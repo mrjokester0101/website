@@ -13,23 +13,22 @@
 }
 
 .profileDetails {
-  margin-top: 5px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: linear-gradient(rgba(30, 30, 30), rgba(60, 60, 60));
-  padding: 15px;
+  padding: 20px;
   border-radius: 20px;
   border: 4px solid rgba(25, 25, 25);
   color: white;
-  font-size: 15px;
+  font-size: 100%;
   opacity: 0;
   transform: scaleY(0);
   transform-origin: top;
   transition: opacity 0.3s ease, transform 0.3s ease;
   font-family: sans-serif;
-  width: 200px;
-  height: 200px;
+  width: 50%;
 }
 
 .profileDetails.show {
@@ -54,7 +53,7 @@
   background-color: #000;
   color: #fff;
   border-radius: 20px;
-  width: 100%;
+  width: 110%;
   top: 10px;
   white-space: pre;
   overflow-x: auto;
@@ -126,11 +125,7 @@
 
 @media (max-width: 600px) {
   .profileDetails {
-    font-size: 5px;
-    margin-top: 5px;
-    border-radius: 10px;
-    width: 100px;
-    height: 100px;
+    width: 60%;
   }
 
   .avatar {
@@ -171,6 +166,10 @@
 
   .roleDesigner {
     font-size: 20px;
+    border-radius: 10px;
+  }
+
+  .profileDetails {
     border-radius: 10px;
   }
 
