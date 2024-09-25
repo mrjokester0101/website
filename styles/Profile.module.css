@@ -49,20 +49,6 @@
   width: 150px;
 }
 
-.avatarBackground {
-  background-color: #000;
-  color: #fff;
-  border-radius: 20px;
-  width: 107%;
-  top: 10px;
-  white-space: pre;
-  overflow-x: auto;
-  height: 150px;
-  margin-bottom: -18%;
-  margin-top: -4%;
-  font-family: sans-serif;
-}
-
 .userInfo {
   flex-direction: column;
   display: flex;
@@ -125,20 +111,13 @@
 
 @media (max-width: 600px) {
   .profileDetails {
+    border-radius: 10px;
     width: 60%;
   }
 
   .avatar {
     width: 100px;
     height: 100px;
-  }
-
-  .avatarBackground {
-    height: 100px;
-    margin-bottom: -26%;
-    margin-top: -10%;
-    border-radius: 10px;
-    width: 120%;
   }
 
   .userName {
@@ -166,10 +145,6 @@
 
   .roleDesigner {
     font-size: 20px;
-    border-radius: 10px;
-  }
-
-  .profileDetails {
     border-radius: 10px;
   }
 
