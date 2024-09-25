@@ -13,7 +13,7 @@
 }
 
 .profileDetails {
-  margin-top: 10cm;
+  margin-top: 5cm;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,14 +22,14 @@
   border-radius: 20px;
   border: 4px solid rgba(25, 25, 25);
   color: white;
-  font-size: 15cm;
+  font-size: 5cm;
   opacity: 0;
   transform: scaleY(0);
   transform-origin: top;
   transition: opacity 0.3s ease, transform 0.3s ease;
   font-family: sans-serif;
-  width: 200cm;
-  height: 200cm;
+  width: 50cm;
+  height: 50cm;
 }
 
 .profileDetails.show {
@@ -126,9 +126,11 @@
 
 @media (max-width: 600px) {
   .profileDetails {
+    font-size: 2.5cm;
+    margin-top: 2.5cm;
     border-radius: 10px;
-    width: 100cm;
-    height: 100cm;
+    width: 25cm;
+    height: 25cm;
   }
 
   .avatar {
