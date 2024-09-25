@@ -13,22 +13,23 @@
 }
 
 .profileDetails {
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: linear-gradient(rgba(30, 30, 30), rgba(60, 60, 60));
-  padding: 20px;
+  padding: 15px;
   border-radius: 20px;
   border: 4px solid rgba(25, 25, 25);
   color: white;
-  font-size: 100%;
+  font-size: 50%;
   opacity: 0;
   transform: scaleY(0);
   transform-origin: top;
   transition: opacity 0.3s ease, transform 0.3s ease;
   font-family: sans-serif;
-  width: 50%;
+  width: 25%;
+  height: 25%;
 }
 
 .profileDetails.show {
@@ -53,7 +54,7 @@
   background-color: #000;
   color: #fff;
   border-radius: 20px;
-  width: 110%;
+  width: 100%;
   top: 10px;
   white-space: pre;
   overflow-x: auto;
