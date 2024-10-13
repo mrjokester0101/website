@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from './styles/MenuButton.module.css';
+import styles from '../styles/MenuButton.module.css';
 import UserProfile from '../components/UserProfile';
 
 export default function MenuButton() {
