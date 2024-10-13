@@ -1,9 +1,9 @@
-import UserProfile from '../components/UserProfile';
+import MenuButton from '../componets/MenuButton';
 
 export default function Home() {
   return (
     <div>
-      <UserProfile />
+      <MenuButton/>
     </div>
   );
 }
