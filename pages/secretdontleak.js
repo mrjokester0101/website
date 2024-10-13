@@ -1,4 +1,4 @@
-import MenuButton from '../componets/MenuButton';
+import MenuButton from '../components/MenuButton';
 
 export default function Home() {
   return (
