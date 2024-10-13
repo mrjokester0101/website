@@ -1,0 +1,32 @@
+.menuWrapper {
+    position: relative;
+}
+
+.menuButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.iconLine {
+    background-color: #fff;
+    transition: all 0.3s ease;
+    wdith: 35px;
+    height: 5px;
+}
+
+@media (max-width: 600px) {
+    .menuButton {
+        height: 24px;
+    }
+
+    .iconLine {
+        width: 25px;
+        height: 4px;
+    }
+}
