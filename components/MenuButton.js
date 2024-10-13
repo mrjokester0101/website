@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from './MenuButton.module.css'; // Import CSS Module
+import styles from './styles/MenuButton.module.css'; // Import CSS Module
 
 export default function MenuButton() {
     const [menuOpen, setMenuOpen] = useState(false);
