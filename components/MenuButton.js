@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import styles from './styles/MenuButton.module.css'; // Import CSS Module
+import styles from './styles/MenuButton.module.css';
+import UserProfile from '../components/UserProfile';
 
 export default function MenuButton() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -18,7 +19,7 @@ export default function MenuButton() {
 
             {menuOpen && (
                 <div className={styles.menuContent}>
-                    {/* Add any content you want when the menu is open */}
+                    <UserProfile/>
                 </div>
             )}
         </div>
